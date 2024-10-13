@@ -5,6 +5,7 @@ gsap.to(".imageContainer", {
   stagger: 3,
   ease: "power2.out",
   repeat: -1,
+  yoyo:true
 });
 
 gsap.to("h1", {
@@ -14,6 +15,7 @@ gsap.to("h1", {
   duration: 6,
   stagger: 3,
   repeat: -1,
+  yoyo:true,
 });
 
 gsap.to("h1", {
@@ -25,4 +27,5 @@ gsap.to("h1", {
   scale: 1,
 //   ease: "power4.inOut",
   repeat: -1,
+  yoyo:true
 });
