@@ -1,4 +1,4 @@
-# Design No.1
+# Design No.2
 
 This is a simple web design project that uses HTML, CSS, and JavaScript to create a beautiful and interactive web page. The page features a stunning background image and a set of animated text elements that react to user scrolling. The project is built using modern web development tools and is optimized for performance and accessibility.
 
