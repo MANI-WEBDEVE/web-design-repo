@@ -105,6 +105,11 @@ html {
 .nav img{
   height: 60px;
 }
+.nav h1{
+  font-size:14px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
 @media screen and (max-width: 500px) {
   .main {
     flex-direction: column;
