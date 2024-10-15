@@ -18,7 +18,6 @@ function wrapSpan () {
 
 wrapSpan()
 
-
 let tl = gsap.timeline();
 tl
 .from(".child span", {
@@ -87,3 +86,4 @@ tl
 //     delay:-2.7,
 //     ease: "power4.inOut",
 // })
+
