@@ -56,12 +56,13 @@ html {
 .loader {
   position: absolute;
   display: none;
-
+  z-index: 999;
   width: 100%;
   height: 100vh;
   background-color: #161616;
 }
 .green {
+  z-index: 999;
   display: none;
   width: 100%;
   height: 0vh;
@@ -135,7 +136,7 @@ html {
   
 }
 .row h2 {
-  font-size: 182px;
+  font-size: 13vw;
   font-weight: 500;
   color: #383838;
 }
@@ -161,15 +162,15 @@ html {
  height: 200px;
 }
 .row2 img {
-  padding: 0 60px;
+  padding: 0 40px;
   margin-top: 20px;
 }
 
 .row2 .row2Text {
-  padding-right: 60px;
+  padding-right: 23px;
 }
 .row2 .row2Text h2 {
-  font-size: 182px;
+  font-size: 13vw;
   font-weight: 500;
 }
 .row2Text{
@@ -178,7 +179,7 @@ html {
   justify-content: center;
 }
 .row2Text svg {
-  height: 110px;
+  height: 9vw;
   color: #14CF93;
   
 }
