@@ -33,6 +33,7 @@ html {
 
 /* Center Loader */
 .centerLoader {
+  width: 900px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -47,7 +48,7 @@ html {
 
 .centerLoader h5 .text-italice {
   font-family: "Italianno", cursive;
-  font-size: 7vw; /* Responsive font size */
+  font-size: 8vw; /* Responsive font size */
   color: #14cf93;
 }
 
@@ -221,9 +222,6 @@ polyline {
     font-size: 4.5vw;
   }
 
-  .centerLoader h5 .text-italice {
-    font-size: 6.5vw;
-  }
 
   .nav a {
     font-size: 1rem;
@@ -235,9 +233,7 @@ polyline {
     font-size: 5vw;
   }
 
-  .centerLoader h5 .text-italice {
-    font-size: 6vw;
-  }
+
 
   .nav {
    
@@ -267,6 +263,20 @@ polyline {
   .row2Text svg {
     height: 12vw;
   }
+  .row2 img {
+    display: none;
+  }
+  .heroP .parent .child{
+    font-size: 10px;
+  }
+  .centerLoader .reveal .parent .child {
+    font-size: 35px;
+  }
+  .centerLoader h5 .text-italice {
+    font-family: "Italianno", cursive;
+    font-size: 7vw; /* Responsive font size */
+    color: #14cf93;
+  }
 }
 
 @media (max-width: 480px) {
@@ -282,8 +292,8 @@ polyline {
     font-size: 0.8rem;
   }
 
-  .row h2 {
-    font-size: 8vw;
+.reveal {
+    font-size: 10vw;
   }
 
   .row2Text h2 {
@@ -292,5 +302,16 @@ polyline {
 
   .row2Text svg {
     height: 10vw;
+  }
+  .heroP > .parent > .child{
+    font-size: 5px;
+  }
+  .centerLoader .reveal .parent .child {
+    font-size: 25px;
+  }
+  .centerLoader h5 .text-italice {
+    font-family: "Italianno", cursive;
+    font-size: 9vw; /* Responsive font size */
+    color: #14cf93;
   }
 }

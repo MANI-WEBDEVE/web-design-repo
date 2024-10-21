@@ -1,7 +1,7 @@
 const mainHeadings = document.querySelectorAll(".reveal");
 
 const valueSetter = () => {
-  gsap.set(".nav a", { y: "-380%" });
+  gsap.set(".nav a", { y: "-480%" });
   gsap.set(".Home .row2 img", { opacity: 0 });
   gsap.set(".row .reveal", { y: "50%", opacity: 0 });
   gsap.set(".row2 .reveal", { y: "50%", opacity: 0 });
