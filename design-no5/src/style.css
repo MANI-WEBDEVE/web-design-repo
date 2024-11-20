@@ -140,9 +140,301 @@ i{
   margin: 28px 90px;
   display: flex;
   justify-content: center;
-  background-color: red;
+  background-image: url(https://img.freepik.com/premium-photo/watercolor-background-multi-color-shades-waves-abstract-pattern-wallpaper-studio-home-decor-living-r_920775-232.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 600px;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   width: 87%;
+}
+
+footer {
+  width: 100%;
+  padding: 40px 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #E4FF6E;
+}
+
+.footer-left h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.footer-left p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.footer-center .social-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-center .social-links a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.footer-center .social-links a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.footer-center .social-links i {
+  font-size: 20px;
+  color: black;
+}
+
+.footer-right {
+  display: flex;
+  gap: 30px;
+}
+
+.footer-right a {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+  transition: all 0.3s ease;
+}
+
+.footer-right a:hover {
+  color: rgba(0, 0, 0, 1);
+}
+
+/* Tablet and smaller laptops */
+@media screen and (max-width: 1024px) {
+  nav {
+    padding: 20px 50px;
+  }
+  nav h2 {
+    font-size: 36px;
+  }
+  .navPart2 {
+    gap: 40px;
+  }
+  .navPart2 li {
+    font-size: 16px;
+  }
+  section {
+    padding: 20px 50px;
+  }
+  section .text-part1 h2 {
+    font-size: 150px;
+    line-height: 140px;
+  }
+  .text-part2 h2 {
+    font-size: 150px;
+    line-height: 140px;
+  }
+  .text-part2 p {
+    width: 50%;
+    font-size: 17px;
+  }
+  footer {
+    padding: 30px 50px;
+  }
+}
+
+/* Tablets and large phones */
+@media screen and (max-width: 768px) {
+  nav {
+    padding: 15px 30px;
+  }
+  nav h2 {
+    font-size: 32px;
+  }
+  .navPart2 {
+    gap: 30px;
+  }
+  .navPart2 li {
+    font-size: 15px;
+  }
+  section {
+    padding: 15px 30px;
+  }
+  section .text-part1 h2 {
+    font-size: 100px;
+    line-height: 90px;
+  }
+  .text-part2 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .text-part2 h2 {
+    font-size: 100px;
+    line-height: 90px;
+  }
+  .text-part2 p {
+    width: 100%;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .buttons {
+    height: auto;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .buttons .line {
+    width: 100%;
+  }
+  footer {
+    padding: 25px 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .footer-left, .footer-center, .footer-right {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .footer-center .social-links {
+    justify-content: center;
+  }
+  
+  .footer-right {
+    justify-content: center;
+  }
+}
+
+/* Mobile phones */
+@media screen and (max-width: 500px) {
+  nav {
+    padding: 15px 20px;
+    flex-direction: column;
+    gap: 15px;
+  }
+  nav h2 {
+    font-size: 28px;
+  }
+  .navPart2 {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .navPart2 li {
+    font-size: 14px;
+  }
+  section {
+    padding: 15px 20px;
+  }
+  section .text-part1 {
+    flex-direction: column;
+  }
+  section .text-part1 h2 {
+    font-size: 60px;
+    line-height: 55px;
+  }
+  section .text-part1 .videoPart {
+    width: 250px;
+    height: 60px;
+    margin-top: 15px;
+  }
+  .videoPart .play {
+    width: 55px;
+  }
+  .text-part2 h2 {
+    font-size: 60px;
+    line-height: 55px;
+  }
+  .text-part2 p {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  .buttons {
+    padding: 5px;
+  }
+  .buttons .btn {
+    padding: 8px 30px;
+    font-size: 14px;
+  }
+  .image {
+    margin: 15px 20px;
+    height: 400px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 90%;
+  }
+  footer {
+    padding: 20px;
+  }
+  
+  .footer-left h3 {
+    font-size: 24px;
+  }
+  
+  .footer-center .social-links {
+    gap: 15px;
+  }
+  
+  .footer-center .social-links a {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .footer-right {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+}
+
+/* Small mobile phones */
+@media screen and (max-width: 320px) {
+  nav h2 {
+    font-size: 24px;
+  }
+  .navPart2 {
+    gap: 15px;
+  }
+  .navPart2 li {
+    font-size: 13px;
+  }
+  section .text-part1 h2 {
+    font-size: 45px;
+    line-height: 42px;
+  }
+  .text-part2 h2 {
+    font-size: 45px;
+    line-height: 42px;
+  }
+  .text-part2 p {
+    font-size: 14px;
+  }
+  .buttons .btn {
+    padding: 8px 20px;
+    font-size: 13px;
+  }
+  .image {
+    height: 300px;
+  }
+  footer {
+    padding: 15px;
+  }
+  
+  .footer-left h3 {
+    font-size: 20px;
+  }
+  
+  .footer-center .social-links {
+    gap: 10px;
+  }
+  
+  .footer-center .social-links a {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .footer-right {
+    gap: 15px;
+  }
 }
